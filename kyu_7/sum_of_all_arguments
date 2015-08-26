@@ -1,0 +1,5 @@
+def sum(*arg)
+
+arg.inject{|sum,x| sum + x }
+
+end
